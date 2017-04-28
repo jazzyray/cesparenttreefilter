@@ -1,0 +1,5 @@
+annotation:
+  image: quay.io/ontotext/cesparenttreefiltermock
+  ports:
+  - "9108:9108"
+  - "9109:9109"

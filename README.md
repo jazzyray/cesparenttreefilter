@@ -1,7 +1,19 @@
 CES ParentTree Mock API
 =
 
-CES ParentTree Mock API  
+Very, very simple and dumb CES ParentTree Mock API.
+
+Echos CES document request with additional prefLabelTree features of the form:
+
+```
+ { 
+"name": { 	"type": "XS_STRING", 
+"name": "prefLabelTree" }, 
+"value": { 	"type": "XS_STRING", 
+"lang": null, 
+"value": "/mock/pref/label/tree/here" } 
+} 
+```
 
 
 # Quick REST test

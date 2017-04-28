@@ -9,7 +9,7 @@ RUN \
 
 WORKDIR data/ces-filter-parent-tree-api
 
-COPY start-mock.sh /data/ces-filter-parent-tree-api
+COPY start.sh /data/ces-filter-parent-tree-api
 COPY target/cesparenttreefilter-0.0.1-SNAPSHOT.jar /data/ces-filter-parent-tree-api/target
 COPY cesparenttreefilter-comfiguration.yml /data/ces-filter-parent-tree-api
 
