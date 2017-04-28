@@ -1,0 +1,13 @@
+server:
+  adminMinThreads: 1
+  adminMaxThreads: 64
+  adminContextPath: /
+  applicationContextPath: /
+  applicationConnectors:
+    - type: http
+      port: 9108
+  adminConnectors:
+    - type: http
+      port: 9109
+swagger:
+  resourcePackage: com.ontotext.cesparenttreefilter.resource
